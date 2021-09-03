@@ -25,10 +25,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         auth
                 .jdbcAuthentication()
                 .dataSource(ds);
-//                .inMemoryAuthentication()
-//                .withUser("user1")
-//                .password("$2a$10$3E6Zz9F47tgR/gvlNNNO/e6T21/rxA9sPF/I8vGK0Sx4HbY8XEZQ.")
-//                .authorities("normal_user");
     }
 
 }
