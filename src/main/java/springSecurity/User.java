@@ -17,7 +17,7 @@ public class User implements UserDetails {
     @Id
     private String username;
 
-    private String psw;
+    private String password;
 
     @Column(name = "is_enabled")
     private boolean enabled;
@@ -36,7 +36,7 @@ public class User implements UserDetails {
 
     @Override
     public String getPassword() {
-        return null;
+        return password;
     }
 
     @Override

@@ -1,4 +1,4 @@
-insert into users(username, password, enabled)
+insert into users(username, password, is_enabled)
 values('user2', '$2a$10$KSTXU62vJ27z7pEiyhcDfOQP1vT1mmJQ4XmEWOpX0EbtOB8wFEyru', true);
 
 insert into authorities(username, authority)
